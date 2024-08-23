@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.atlasv.android.media3.demo.download"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.atlasv.android.media3.demo.download"
@@ -66,4 +66,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    implementation(project(":downloader"))
 }

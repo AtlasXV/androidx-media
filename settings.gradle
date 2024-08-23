@@ -65,4 +65,3 @@ include modulePrefix + 'testapp-controller'
 project(modulePrefix + 'testapp-controller').projectDir = new File(rootDir, 'testapps/controller')
 
 apply from: 'core_settings.gradle'
-include ':download'
